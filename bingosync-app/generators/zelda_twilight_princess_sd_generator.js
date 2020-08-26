@@ -372,6 +372,105 @@
 		SilverRupees: {
 			name: "Get 2 Silver Rupees From Chests",
 		},
+		FTItemsGet: {
+			name: "Get Forest Temple Map, Gompass & Boss Key",
+		},
+		GMItemsGet: {
+			name: "Get Goron Mines Map, Gompass & Boss Key",
+		},
+		LBTItemsGet: {
+			name: "Get Lakebed Temple Map, Gompass & Boss Key",
+		},
+		AGItemsGet: {
+			name: "Get Arbiter's Grounds Map, Gompass & Boss Key",
+		},
+		SPRItemsGet: {
+			name: "Get Snowpeak Ruins Map, Gompass & Boss Key",
+		},
+		ToTItemsGet: {
+			name: "Get Temple of Time Map, Gompass & Boss Key",
+		},
+		CityItemsGet: {
+			name: "Get City in the Sky Map, Gompass & Boss Key",
+		},
+		PoTItemsGet: {
+			name: "Get Palace of Twilight Map, Gompass & Boss Key",
+		},
+		HCItemsGet: {
+			name: "Get Forest Temple Map, Gompass & Boss Key",
+		},
+		FTKeysGet: {
+			name: "Get All 4 Forest Temple Small Keys",
+		},
+		GMKeysGet: {
+			name: "Get All 3 Goron Mines Small Keys",
+		},
+		LBTKeysGet: {
+			name: "Get All 3 Lakebed Temple Small Keys",
+		},
+		AGKeysGet: {
+			name: "Get All 4 Arbiter's Grounds Small Keys",
+		},
+		SPRKeysGet: {
+			name: "Get All 4 Snowpeak Ruins Small Keys",
+		},
+		ToTKeysGet: {
+			name: "Get All 3 Temple of Time Small Keys",
+		},
+		CityKeyGet: {
+			name: "Get the City in the Sky Small Key",
+		},
+		PoTKeysGet: {
+			name: "Get All 7 Palace of Twilight Small Keys",
+		},
+		HCKeysGet: {
+			name: "Get All 3 Hyrule Castle Small Keys",
+		},
+		FTOoccooGet: {
+			name: "Get Forest Temple Ooccoo",
+		},
+		GMOoccooGet: {
+			name: "Get Goron Mines Ooccoo",
+		},
+		LBTOoccooGet: {
+			name: "Get Lakebed Temple Ooccoo",
+		},
+		AGOoccooGet: {
+			name: "Get Arbiter's Grounds Ooccoo",
+		},
+		SPROoccooGet: {
+			name: "Get Snowpeak Ruins Ooccoo",
+		},
+		ToTOoccooGet: {
+			name: "Get Temple of Time Ooccoo",
+		},
+		CityOoccooGet: {
+			name: "Get City in the Sky Ooccoo",
+		},
+		SPRPumpkinGet: {
+			name: "Get Snowpeak Ruins Ordon Pumpkin",
+		},
+		SPRCheeseGet: {
+			name: "Get Snowpeak Ruins Ordon Goat Cheese",
+		},
+		FusedShadowGet: {
+			name: "Get a Fused Shadow",
+		},
+		FusedShadow2Get: {
+			name: "Get 2 Fused Shadows",
+		},
+		FusedShadow3Get: {
+			name: "Get All 3 Fused Shadows",
+		},
+		MirrorShardGet: {
+			name: "Get a Mirror Shard (from bosses)",
+		},
+		MirrorShard2Get: {
+			name: "Get 2 Mirror Shards (from bosses)",
+		},
+		MirrorShard3Get: {
+			name: "Get 3 Mirror Shards (from bosses)",
+		},
 
 	};
 
@@ -394,7 +493,16 @@
 		poe: ["Poe10Get", "Poe20Get", "Poe30Get", "Poe40Get", "Poe50Get", "Poe60Get"], // TODO: Jovanni/poe checks
 		scent: ["YouthScentGet", "IliaScentGet", "PoeScentGet", "ReekfishScentGet", "MedicineScentGet"],
 		heart: ["Hearts5", "Hearts10", "Hearts15", "Hearts20", "HeartContainerGet", "HeartContainer2Get", "HeartContainer3Get", "HeartContainer4Get", "HeartContainer5Get", "HeartContainer6Get", "HeartContainer7Get", "HeartContainer8Get"], // TODO: Bosses
-		rupee: ["ValidationRupee", "GreenRupee", "AllRupeeTypes", "OrangeRupees", "SilverRupees"]
+		rupee: ["ValidationRupee", "GreenRupee", "AllRupeeTypes", "OrangeRupees", "SilverRupees"],
+		forestTemple: ["FTItemsGet", "FTKeysGet", "FTOoccooGet", "DiababaKill"],
+		goronMines: ["GMItemsGet", "GMKeysGet", "GMOoccooGet", "FyrusKill"],
+		lakebedTemple: ["LBTItemsGet", "LBTKeysGet", "LBTOoccooGet", "MorpheelKill"],
+		arbitersGround: ["AGItemsGet", "AGKeysGet", "AGOoccooGet", "StallordKill"],
+		snowpeakRuins: ["SPRItemsGet", "SPRKeysGet", "SPROoccooGet", "SPRPumpkinGet", "SPRCheeseGet", "BlizzetaKill"],
+		templeOfTime: ["ToTItemsGet", "ToTKeysGet", "ToTOoccooGet", "ArmogohmaKill"],
+		cityInTheSky: ["CityItemsGet", "CityKeysGet", "CityOoccooGet", "ArgorokKill"],
+		palaceOfTwilight: ["PoTItemsGet", "PoTKeysGet", "ZantKill"],
+		hyruleCastle: ["HCItemsGet", "HCKeysGet"],
 
 	};
 
