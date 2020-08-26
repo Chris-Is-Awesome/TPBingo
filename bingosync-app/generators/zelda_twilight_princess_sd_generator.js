@@ -63,13 +63,8 @@
 		return selectedGoals;
 	}
 
-	var types = {
-		fishingRod: ["FishingRodGet", "EarringGet"],
-		bow: ["BowGet", "Quiver1Get", "Quiver2Get"],
-		bomb: ["BombBagGet", "BombBag2Get", "BombBag3Get", "GiantBombBagGet"],
-	};
-
 	var bingoList = {
+
 		// Item gets
 		FishingRodGet: {
 			name: "Get Fishing Rod",
@@ -110,6 +105,297 @@
 		GiantBombBagGet: {
 			name: "Get Giant Bomb Bags",
 		},
+		HawkeyeGet: {
+			name: "Get Hawkeye",
+		},
+		ClawGet: {
+			name: "Get a Clawshot",
+		},
+		DoubleClawGet: {
+			name: "Get Double Clawshots",
+		},
+		SpinnerGet: {
+			name: "Get Spinner",
+		},
+		BallChainGet: {
+			name: "Get Ball & Chain",
+		},
+		DRodGet: {
+			name: "Get Dominion Rod",
+		},
+		Drod2Get: {
+			name: "Get Powered Dominion Rod",
+		},
+		BottleGet: {
+			name: "Get a Bottle",
+		},
+		Bottle2Get: {
+			name: "Get 2 Bottles",
+		},
+		Bottle3Get: {
+			name: "Get 3 Bottles",
+		},
+		Bottle4Get: {
+			name: "Get 4 Bottles",
+		},
+		MemoGet: {
+			name: "Get Auru's Memo",
+		},
+		SketchGet: {
+			name: "Get Ashei's Sketch",
+		},
+		SkyBookGet: {
+			name: "Get Sky Book",
+		},
+		SkyCharGet: {
+			name: "Get a Sky Character",
+		},
+		SkyChar2Get: {
+			name: "Get 2 Sky Characters",
+		},
+		SkyChar3Get: {
+			name: "Get 3 Sky Characters",
+		},
+		SkyChar4Get: {
+			name: "Get 4 Sky Characters",
+		},
+		SkyChar5Get: {
+			name: "Get 5 Sky Characters",
+		},
+		SkyChar6Get: {
+			name: "Get All 6 Sky Characters",
+		},
+		LetterGet: {
+			name: "Get Renado's Letter",
+		},
+		InvoiceGet: {
+			name: "Get Doctor's Invoice",
+		},
+		StatueGet: {
+			name: "Get Wooden Statue",
+		},
+		CharmGet: {
+			name: "Get Ilia's Charm",
+		},
+		HorseCallGet: {
+			name: "Get Horse Call",
+		},
+		Skill1Get: {
+			name: "Learn a Hidden Skill",
+		},
+		Skill2Get: {
+			name: "Learn 2 Hidden Skills",
+		},
+		Skill3Get: {
+			name: "Learn 3 Hidden Skills",
+		},
+		Skill4Get: {
+			name: "Learn 4 Hidden Skills",
+		},
+		Skill5Get: {
+			name: "Learn 5 Hidden Skills",
+		},
+		Skill6Get: {
+			name: "Learn 6 Hidden Skills",
+		},
+		Skill7Get: {
+			name: "Learn All 7 Hidden Skills",
+		},
+		EndingBlowGet: {
+			name: "Learn Ending Blow",
+		},
+		ShieldAttackGet: {
+			name: "Learn Shield Attack",
+		},
+		BackSliceGet: {
+			name: "Learn Back Slice",
+		},
+		HelmSplitterGet: {
+			name: "Learn Helm Splitter",
+		},
+		MortalDrawGet: {
+			name: "Learn Mortal Draw",
+		},
+		JumpStrikeGet: {
+			name: "Learn Jump Strike",
+		},
+		GreatSpinGet: {
+			name: "Learn Great Spin",
+		},
+		WoodSwordGet: {
+			name: "Get Wooden Sword",
+		},
+		OrdonSwordGet: {
+			name: "Get Ordon Sword",
+		},
+		MasterSwordGet: {
+			name: "Get Master Sword",
+		},
+		LightSwordGet: {
+			name: "Get Light Sword",
+		},
+		WoodShieldGet: {
+			name: "Get Wooden Shield",
+		},
+		OrdonShieldGet: {
+			name: "Get Ordon Shield",
+		},
+		HylianShieldGet: {
+			name: "Get Hylian Shield",
+		},
+		ZoraArmorGet: {
+			name: "Get & Equip Zora Armor",
+		},
+		MagicArmorGet: {
+			name: "Get & Equip Magic Armor",
+		},
+		WalletGet: {
+			name: "Get Big Wallet",
+		},
+		Wallet2Get: {
+			name: "Get Giant Wallet",
+		},
+		Bug4Get: {
+			name: "Get 4 Golden Bugs",
+		},
+		Bug8Get: {
+			name: "Get 8 Golden Bugs",
+		},
+		Bug12Get: {
+			name: "Get 12 Golden Bugs",
+		},
+		Bug16Get: {
+			name: "Get 16 Golden Bugs",
+		},
+		Bug20Get: {
+			name: "Get 20 Golden Bugs",
+			// TODO: Longer goal
+		},
+		Bug24Get: {
+			name: "Get 24 Golden Bugs",
+			// TODO: Longer goal
+		},
+		Poe10Get: {
+			name: "Get 10 Poe Souls",
+		},
+		Poe20Get: {
+			name: "Get 20 Poe Souls",
+		},
+		Poe30Get: {
+			name: "Get 30 Poe Souls",
+		},
+		Poe40Get: {
+			name: "Get 40 Poe Souls",
+			// TODO: Longer goal
+		},
+		Poe50Get: {
+			name: "Get 50 Poe Souls",
+			// TODO: Longer goal
+		},
+		Poe60Get: {
+			name: "Get 60 Poe Souls",
+			// TODO: Longer goal
+		},
+		CrystalGet: {
+			name: "Get Shadow Crystal",
+			// TODO: Rando only
+		},
+		YouthScentGet: {
+			name: "Get Youth's Scent",
+		},
+		IliaScentGet: {
+			name: "Get Scent of Ilia",
+		},
+		PoeScentGet: {
+			name: "Get Poe Scent",
+		},
+		ReekfishScentGet: {
+			name: "Get Reekfish Scent",
+		},
+		MedicineScentGet: {
+			name: "Get Medicine Scent",
+		},
+		Hearts5: {
+			name: "Have 5 Hearts Total",
+		},
+		Hearts10: {
+			name: "Have 10 Hearts Total",
+		},
+		Hearts15: {
+			name: "Have 15 Hearts Total",
+			// TODO: Longer goal
+		},
+		Hearts20: {
+			name: "Have All 20 Hearts",
+			// TODO: Longer goal
+		},
+		HeartContainerGet: {
+			name: "Get a Heart Container",
+		},
+		HeartContainer2Get: {
+			name: "Get 2 Heart Containers",
+		},
+		HeartContainer3Get: {
+			name: "Get 3 Heart Containers",
+		},
+		HeartContainer4Get: {
+			name: "Get 4 Heart Containers",
+		},
+		HeartContainer5Get: {
+			name: "Get 5 Heart Containers",
+			// TODO: Longer goal
+		},
+		HeartContainer6Get: {
+			name: "Get 6 Heart Containers",
+			// TODO: Longer goal
+		},
+		HeartContainer7Get: {
+			name: "Get 7 Heart Containers",
+			// TODO: Longer goal
+		},
+		HeartContainer8Get: {
+			name: "Get All 8 Heart Containers",
+			// TODO: Longer goal
+		},
+		ValidationRupee: {
+			name: "Get Validation Rupee",
+		},
+		GreenRupee: {
+			name: "Get a Green Rupee",
+		},
+		AllRupeeTypes: {
+			name: "Get 2 of Every Rupee Type",
+		},
+		OrangeRupees: {
+			name: "Get 5 Orange Rupees",
+		},
+		SilverRupees: {
+			name: "Get 2 Silver Rupees From Chests",
+		},
+
+	};
+
+	var types = {
+
+		fishingRod: ["FishingRodGet", "EarringGet"], // TODO: Fishing goals
+		bow: ["BowGet", "Quiver1Get", "Quiver2Get"], // TODO: Armogohma, Fyrus
+		bomb: ["BombBagGet", "BombBag2Get", "BombBag3Get", "GiantBombBagGet"], // TODO: Bomb checks
+		claws: ["ClawGet", "DoubleClawGet"], // TODO: Argorok, claw checks (if any)
+		rod: ["DRodGet", "DRod2Get"], // TODO: Hurt enemy/self with statue, armogohma
+		bottle: ["BottleGet", "Bottle2Get", "Bottle3Get", "Bottle4Get"], // TODO: Bottle uses
+		questItem: ["MemoGet", "SketchGet", "LetterGet", "InvoiceGet", "StatueGet", "CharmGet", "HorseCallGet"],
+		skybook: ["SkyBookGet", "SkyCharGet", "SkyChar2Get", "SkyChar3Get", "SkyChar4Get", "SkyChar5Get", "SkyChar6Get"],
+		hiddenSkill: ["Skill1Get", "Skill2Get", "Skill3Get", "Skill4Get", "Skill5Get", "Skill6Get", "Skill7Get", "EndingBlowGet", "ShieldAttackGet", "BackSliceGet", "HelmSplitterGet", "MortalDrawGet", "JumpStrikeGet", "GreatSpinGet"], // TODO:  Kill enemy with x skill
+		sword: ["WoodSwordGet", "OrdonSwordGet", "MasterSwordGet", "LightSwordGet"],
+		shield: ["WoodShieldGet", "OrdonShieldGet", "HylianShieldGet"], // TODO: Burn wooden shield
+		armor: ["ZoraArmorGet", "MagicArmorGet"], // TODO: Armor goals (eg. die wearing x armor)
+		wallet: ["WalletGet", "Wallet2Get"], // TODO: Money goals
+		bug: ["Bug4Get", "Bug8Get", "Bug12Get", "Bug16Get", "Bug20Get", "Bug24Get"], // TODO: Turn in bugs
+		poe: ["Poe10Get", "Poe20Get", "Poe30Get", "Poe40Get", "Poe50Get", "Poe60Get"], // TODO: Jovanni/poe checks
+		scent: ["YouthScentGet", "IliaScentGet", "PoeScentGet", "ReekfishScentGet", "MedicineScentGet"],
+		heart: ["Hearts5", "Hearts10", "Hearts15", "Hearts20", "HeartContainerGet", "HeartContainer2Get", "HeartContainer3Get", "HeartContainer4Get", "HeartContainer5Get", "HeartContainer6Get", "HeartContainer7Get", "HeartContainer8Get"], // TODO: Bosses
+		rupee: ["ValidationRupee", "GreenRupee", "AllRupeeTypes", "OrangeRupees", "SilverRupees"]
+
 	};
 
 	var typesObj = Object.keys(types).reduce(function (acc, type) {
@@ -132,7 +418,7 @@
 	}, {});
 
 	// BEGIN TEST CODE
-	//var result = generateBingoList(bingoOptions, { seed: "1", length: 3 });
+	//var result = generateBingoList(bingoOptions, { seed: "1", length: 5 });
 	var result = generateBingoList(bingoOptions);
 	console.log("Generated " + result.length + " goals!");
 	console.log(JSON.stringify(result));
