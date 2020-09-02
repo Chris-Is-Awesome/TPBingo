@@ -374,31 +374,31 @@
 			name: "Get 2 Silver Rupees From Chests",
 		},
 		FTItemsGet: {
-			name: "Get Forest Temple Map, Gompass & Boss Key",
+			name: "Get Forest Temple Map, Compass & Boss Key",
 		},
 		GMItemsGet: {
-			name: "Get Goron Mines Map, Gompass & Boss Key",
+			name: "Get Goron Mines Map, Compass & Boss Key",
 		},
 		LBTItemsGet: {
-			name: "Get Lakebed Temple Map, Gompass & Boss Key",
+			name: "Get Lakebed Temple Map, Compass & Boss Key",
 		},
 		AGItemsGet: {
-			name: "Get Arbiter's Grounds Map, Gompass & Boss Key",
+			name: "Get Arbiter's Grounds Map, Compass & Boss Key",
 		},
 		SPRItemsGet: {
-			name: "Get Snowpeak Ruins Map, Gompass & Boss Key",
+			name: "Get Snowpeak Ruins Map, Compass & Boss Key",
 		},
 		ToTItemsGet: {
-			name: "Get Temple of Time Map, Gompass & Boss Key",
+			name: "Get Temple of Time Map, Compass & Boss Key",
 		},
 		CityItemsGet: {
-			name: "Get City in the Sky Map, Gompass & Boss Key",
+			name: "Get City in the Sky Map, Compass & Boss Key",
 		},
 		PoTItemsGet: {
-			name: "Get Palace of Twilight Map, Gompass & Boss Key",
+			name: "Get Palace of Twilight Map, Compass & Boss Key",
 		},
 		HCItemsGet: {
-			name: "Get Forest Temple Map, Gompass & Boss Key",
+			name: "Get Forest Temple Map, Compass & Boss Key",
 		},
 		FTKeysGet: {
 			name: "Get All 4 Forest Temple Small Keys",
@@ -661,9 +661,6 @@
 		},
 		EnviromentKills: {
 			name: "Kill an Enemy with Pots/Barrels/Boxes/etc.",
-		},
-		FriendlyFire: {
-			name: "Make one Enemy Kill Another",
 		},
 
 		// Mini-Bosses
