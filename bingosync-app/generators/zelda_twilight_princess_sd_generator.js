@@ -1,3 +1,6 @@
+// Huge thanks to Issac for helping clean this up and handle some of the logic!
+// Also thanks to Hollow Knight and MM bingos for 90% of this code lol
+
 "use strict";
 (function () {
 	// Adds seedrandom function to Math. Might also update Math.random"s behavior.
