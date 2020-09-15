@@ -617,6 +617,9 @@
 		GibdoKills: {
 			name: "Kill 5 Gibdos (Redeads)",
 		},
+		GibdoKillsBombArrows: {
+			name: "Kill a Gibdo (Redead) with Bomb Arrows",
+		},
 		ToadpoliKill: {
 			name: "Kill a Toadpoli with Ball & Chain",
 		},
@@ -657,7 +660,7 @@
 			name: "Kill 3 Enemies with Iron Boots",
 		},
 		SpinnerKills: {
-			name: "Kill 5 Enemies with Spinner",
+			name: "Kill 3 Enemies with Spinner",
 		},
 		BallAndChainKills: {
 			name: "Kill 10 Enemies with Ball & Chain",
@@ -682,6 +685,9 @@
 		},
 		EnviromentKills: {
 			name: "Kill an Enemy with Pots/Barrels/Boxes/etc.",
+		},
+		HawkeyeKill: {
+			name: "Kill an Enemy With Bow Using Hawkeye",
 		},
 
 		// Mini-Bosses
@@ -1099,6 +1105,15 @@
 		LanternBug: {
 			name: "Catch a Golden Bug with the Lantern",
 		},
+		BeeHives: {
+			name: "Knock Down 2 Bee Hives",
+		},
+		BeeDeath: {
+			name: "Die to a Swarm of Bees",
+		},
+		Plumm0Pts: {
+		name: "Score 0 Points in Plumm's Minigame",
+		},
 
 		// World
 
@@ -1255,7 +1270,7 @@
 		bottles: ["BottleGet", "Bottle2Get", "Bottle3Get", "Bottle4Get", "UseRedPotion", "UseBluePotion", "UseMilk", "UseNastySoup", "UseHotSpringwater", "UseFairyTears", "UseFairy", "UseRareChuJelly", "UseRedChuJelly", "UseBlueChuJelly", "UseLanternOil", "UseWater", "UseGreenChuJelly", "UseYellowChuJelly", "UsePurpleChuJelly", "UseWorms", "UseBeeLarvae", "UseSuperbSoup", "ScoopAllChus", "ScoopRedChuJelly", "ScoopBlueChuJelly", "ScoopPurpleChuJelly", "ScoopYellowChuJelly", "ScoopRareChuJelly", "ScoopLanternOil", "GrowPumpkin"],
 		questItem: ["MemoGet", "SketchGet", "LetterGet", "InvoiceGet", "StatueGet", "CharmGet", "HorseCallGet"],
 		skybook: ["SkyBookGet", "SkyCharGet", "SkyChar2Get", "SkyChar3Get", "SkyChar4Get", "SkyChar5Get", "SkyChar6Get"],
-		hiddenSkill: ["Skill1Get", "Skill2Get", "Skill3Get", "Skill4Get", "Skill5Get", "Skill6Get", "Skill7Get", "EndingBlowGet", "ShieldAttackGet", "BackSliceGet", "HelmSplitterGet", "MortalDrawGet", "JumpStrikeGet", "GreatSpinGet", "SGHowl", "DMHowl", "UZRHowl", "LHHowl", "SPHowl", "HVHowl"],
+		hiddenSkill: ["Skill1Get", "Skill2Get", "Skill3Get", "Skill4Get", "Skill5Get", "Skill6Get", "Skill7Get", "EndingBlowGet", "ShieldAttackGet", "BackSliceGet", "HelmSplitterGet", "MortalDrawGet", "JumpStrikeGet", "GreatSpinGet", "SGHowl", "DMHowl", "UZRHowl", "LHHowl", "SPHowl", "HVHowl", "EndingBlowKills", "BackSliceKills", "MortalDrawKills", "JumpStrikeKills", "GreatSpinKills"],
 		sword: ["WoodSwordGet", "OrdonSwordGet", "MasterSwordGet", "LightSwordGet"],
 		shield: ["WoodShieldGet", "OrdonShieldGet", "HylianShieldGet", "BurnShield"],
 		armor: ["ZoraArmorGet", "MagicArmorGet", "MARupeeDrain", "MADeath", "DrownMA", "LakeBottomWithMA", "ZADeath"],
@@ -1287,7 +1302,7 @@
 		helmaKills: ["HelmasaurKills", "HelmasaurKill"],
 		skillKills: ["EndingBlowKills", "BackSliceKills", "HelmSplitterKills", "MortalDrawKills", "JumpStrikeKills", "GreatSpinKills"],
 		shellBladeKills: ["ShellBladeKills", "ShellBladeWBKills"],
-		deaths: ["Die", "BladeTrapDeath", "FloorSpikeDeath", "MistDeath", "FogDeath", "DarknutDeath", "Drown", "DrownMA", "CoODeath", "BombDeath", "ZADeath", "MADeath", "TrillDeath", "ElectroDeath", "FreezeDeath", "BurnDeath", "QuicksandDeath", "GameOver", "PitDeath", "DekuLikeEat", "JOTWAD", "JOATAD"],
+		deaths: ["Die", "BladeTrapDeath", "FloorSpikeDeath", "MistDeath", "FogDeath", "DarknutDeath", "Drown", "DrownMA", "CoODeath", "BombDeath", "ZADeath", "MADeath", "TrillDeath", "ElectroDeath", "FreezeDeath", "BurnDeath", "QuicksandDeath", "GameOver", "PitDeath", "DekuLikeEat", "JOTWAD", "JOATAD", "BeeDeath"],
 		trill: ["TrillThief", "TrillDeath", "TrillNice"],
 		rollgoal: ["Rollgoal1", "Rollgoal2", "Rollgoal3", "Rollgoal4", "Rollgoal5", "Rollgoal10"],
 		hena: ["HenaUpset", "HenaFishing", "HenaLook"],
@@ -1295,7 +1310,7 @@
 		castleTown: ["ShoePolish", "CTBread", "CTApple", "CTFlower", "CTPedsTalk", "CharloDonation", "BuyCTMaloMart", "Jovanni20Souls", "Jovanni60Souls"],
 		izaMG: ["Iza1", "Iza2"],
 		starMG: ["Star1", "Star2"],
-		plummMG: ["Plumm", "Plumm60k"],
+		plummMG: ["Plumm", "Plumm60k", "Plumm0Pts"],
 		hiddenVillage: ["HideNSeek", "HVHowl"],
 		fanadi: ["LoveHint", "CareerHint"],
 		mapProgress: ["MapUnlock", "WarpUnlock"],
@@ -1303,6 +1318,7 @@
 		shortcuts: ["KakGraveyardToLakeSC", "SCTToLakeSC"],
 		shopping: ["BuyCTMaloMart", "BuyKakMaloMart", "BuyCityShop", "BuyKakNightShop", "BuyDMTShop", "BuyCTGorons", "BuyCoroBottle"],
 		grottos: ["EldinGrottos", "LanayruGrottos", "DesertGrottos", "SnowpeakGrottos"],
+		gibdoKills: ["GibdoKills", "GibdoKillsBombArrows"],
 
 	};
 
