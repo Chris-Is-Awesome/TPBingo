@@ -1335,11 +1335,8 @@
 		return acc;
 	}, {});
 
-	var goalCount = 0;
-
 	var bingoOptions = Object.keys(bingoList).reduce(function (acc, key) {
 		var obj = Object.assign({}, bingoList[key]);
-		goalCount++;
 		if (typesObj[key]) {
 			obj.types = Object.assign({}, typesObj[key]);
 		}
