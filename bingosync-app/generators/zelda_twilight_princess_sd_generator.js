@@ -1347,13 +1347,6 @@
 		return acc;
 	}, {});
 
-	// BEGIN TEST CODE
-	//var result = generateBingoList(bingoOptions, { seed: "69420", length: 10 });
-	var result = generateBingoList(bingoOptions);
-	console.log("Generated " + result.length + " goals out of " + goalCount + " goals!");
-	console.log(JSON.stringify(result));
-	// END TEST CODE
-
 	if (typeof window !== "undefined" && window) {
 		window.bingoGenerator = function (options) {
 			return generateBingoList(bingoOptions, options);
